@@ -3,7 +3,7 @@ async function requestSignature(ev) {
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
 
-  await fetch("http://localhost:3001/signature", {
+  await fetch("https://lp-api.startdevjs.com.br/signature", {
     method: "POST",
     headers: {
       Accept: "application/json",
