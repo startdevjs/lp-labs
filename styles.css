@@ -63,3 +63,14 @@ button {
   background-color: #0f0ce5;
   border-color: #0f0ce5;
 }
+
+.await {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .await {
+    width: 100%;
+    text-align: center;
+  }
+}
